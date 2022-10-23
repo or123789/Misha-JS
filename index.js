@@ -90,7 +90,7 @@ console.log(getInt(11))
 
 function setBg () {
     const img = new Image();
-    img.src = `/bg${randomNumber}.jpg`;
+    img.src = `https://raw.githubusercontent.com/or123789/Misha-JS/main/bg${randomNumber}.jpg`;
     img.onload = () => {
       document.body.style.backgroundImage = `url(${img.src})`
     }
